@@ -1,0 +1,6 @@
+node_modules/
+.meteor/local
+.idea
+.deploy
+# Project exclude paths
+/.meteor/

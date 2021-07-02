@@ -1,0 +1,72 @@
+.star-view {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    background-image: url('stardust.jpg');
+}
+
+
+.modal {
+    overflow-y: auto !important;
+}
+
+
+.red {
+    background-color: red;
+}
+
+.s-table-h {
+    font-size: 20px !important;
+    color: darkslateblue !important;
+}
+
+.s-table-b-s {
+    font-size: 36px !important;
+    color: black !important;
+}
+
+.s-table-b {
+    font-size: 24px !important;
+    color: black !important;
+}
+
+.d-table tbody tr td {
+    font-size: 20px;
+    color: black;
+}
+
+.stake-badge {
+    box-shadow: none !important;
+    border-radius: unset !important;
+}
+
+.wrap-long-text {
+    overflow-wrap: break-word;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.near-font {
+    --bg: #efefef;
+    --fg: #1e1e1e;
+    --gray: #555;
+    --light-gray: #ccc;
+    --shadow: #e6e6e6;
+    --success: rgb(90, 206, 132);
+    --primary: #FF585D;
+    --secondary: #0072CE;
+
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: calc(0.9em + 0.5vw);
+    line-height: 1.3;
+    height: 100%;
+}
+
+.near-number {
+    font-size: 24px;
+    font-weight: 900;
+}
