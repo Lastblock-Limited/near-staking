@@ -1,6 +1,6 @@
 {
-  "name": "near-view",
-  "private": true,
+  "name": "near-staking",
+  "private": false,
   "scripts": {
     "start": "meteor run",
     "test": "meteor test --once --driver-package meteortesting:mocha",
